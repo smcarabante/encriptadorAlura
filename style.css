@@ -1,0 +1,102 @@
+*{
+    background: #ffffffad;
+
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 60px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+
+}
+
+.text-area{
+    border: none;
+    color: #0d00ff;
+    margin-top: 20px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0d00ff;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensaje{
+    background: #ffffff;    
+    background-image: url(./Images/letras.png);
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+    color: #0d00ff;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.botones__desencriptar{
+    background: #ffffff;
+    border: 1px solid #0d00ff;
+    border-radius: 24px;
+    color: #0d00ff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.botones__encriptar{
+    background-color: #0d00ff;
+    border: 1px solid #0d00ff;
+    border-radius: 24px;
+    color: #dde6ff;
+    height: 67px;
+    width: 328px;   
+}
+
+.butonCopiar{
+    border: 1px solid #0d00ff;
+    border-radius: 24PX;
+    color: #0d00ff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 628px;
+    position: absolute;
+    width: 328px;
+}
+
+.informacion{
+    color: #3b2b0c;
+    font-size: 18px;
+}
+
+@media (max-width:1200px){
+    .mensaje{padding: 10%;
+    }
+}
